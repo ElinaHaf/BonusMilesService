@@ -4,9 +4,9 @@ public class BonusMilesService {
         int miles;                       //возвращает расчитанное количество миль
 
         if (cost > 20) {
-          miles = cost/20;
+            miles = cost / 20;
 
-        } else{
+        } else {
             miles = 0;
         }
         return miles;
